@@ -33,7 +33,8 @@ At this point, you should be all ready to go. You can check by running XFLR5 fro
 ```
 ln -sf /usr/local/share/xflr5/xflr5.desktop ~/.local/share/applications/
 ```
-And now you should be able to launch *XFLR5* from the Activities Overview.
+And now you should be able to launch *XFLR5* from the Activities Overview. If not, use LD_LIBRARY_PATH=/usr/local/lib at the terminal first.
+
 
 ## Credits
 
