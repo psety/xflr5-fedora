@@ -18,7 +18,7 @@ git clone https://github.com/psety/xflr5-fedora.git
 **3.** Follow the standard install procedure:
 ```
 cd /path/to/repo/xflr5/
-qmake
+qmake-qt5
 make # will take a while
 sudo make install # create executable
 sudo ldconfig # make the new shared libraries available
