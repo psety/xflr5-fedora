@@ -21,7 +21,7 @@ cd /path/to/repo/xflr5/
 qmake-qt5
 make # will take a while
 sudo make install # create executable
-sudo ldconfig # make the new shared libraries available
+sudo ldconfig # make the new shared libraries available if not export LD_LIBRARY_PATH=/usr/local/lib
 ```
 
 At this point, you should be all ready to go. You can check by running XFLR5 from the command line:
