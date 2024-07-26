@@ -1,4 +1,4 @@
-# XFLR5 for Ubuntu
+# XFLR5 for Fedora 40
 
 *This repo provides the latest [XFLR5](http://www.xflr5.tech/xflr5.htm) (currently v6.61) patched for Fedora 40
 
@@ -12,7 +12,7 @@ sudo dnf install make automake gcc gcc-c++ kernel-devel mesa-libGL-devel qt5-qtb
 **2.** Download the files from this repo and extract them:
 ```
 cd /path/to/repo/
-git clone https://github.com/polmes/xflr5-ubuntu.git
+git clone https://github.com/psety/xflr5-fedora.git
 ```
 
 **3.** Follow the standard install procedure:
