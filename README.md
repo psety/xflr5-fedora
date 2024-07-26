@@ -1,12 +1,12 @@
 # XFLR5 for Ubuntu
 
-*This repo provides the latest [XFLR5](http://www.xflr5.tech/xflr5.htm) (currently v6.61) patched for Ubuntu 22.04 LTS*
+*This repo provides the latest [XFLR5](http://www.xflr5.tech/xflr5.htm) (currently v6.61) patched for Fedora 40
 
 ## Installation
 
 **1.** First of all, start by installing the required dependencies:
 ```
-sudo apt install build-essential libgl1-mesa-dev qt5-qmake qtbase5-dev
+sudo dnf install make automake gcc gcc-c++ kernel-devel mesa-libGL-devel qt5-qtbase-devel
 ```
 
 **2.** Download the files from this repo and extract them:
